@@ -1,5 +1,7 @@
 # LunarCalendar
-一个由 JS 万年历移植而来的，兼容 iOS / Android 的 cpp 农历模块
+一个由 JS 万年历移植而来的，兼容 iOS / Android 的 cpp 农历模块。
+
+**对于 iOS，还提供一个用 JSCore 直接调用 Calendar.js 的版本**
 
 ## 功能
 
@@ -45,11 +47,11 @@ TTLunarDate* lunarDate = [TTLunarCalendar convertFromGeneralDateYear: 2015
 lunarDate Property 同 cpp
 ```
 
-其他方法请参考头文件注释、和 iOS 单元测试
+其他方法请参考头文件注释、和 iOS 单元测试，JSCore 版本对外接口一样。
 
 ### Android
 
-ToDO
+Todo
 
 ## Todo
 - CocoaPod 支持
