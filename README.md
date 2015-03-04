@@ -9,6 +9,48 @@
 - 支持 24 节气
 - 支持 农历日期的中文显示
 
+## 使用
+
+### C++
+
+```
+lunar = new Lunar();
+LunarObj* obj = lunar->solar2lunar(2015, 3, 4);
+
+obj >>>
+lunarYear: 2015, 
+lunarMonth: 1, 
+lunarDay: 14, 
+Animal: "羊"
+lunarMonthChineseName: "正月"
+lunarDayChineseName: "十四"
+solarDay: 4
+solarMonth: 3
+solarYear: 2015
+gzDay: "己卯"
+gzMonth: "戊寅"
+gzYear: "乙未"
+isLeap: false
+isTerm: false
+```
+其他方法请参考头文件注释、和 iOS 单元测试
+
+### Objective-C
+
+```
+TTLunarDate* lunarDate = [TTLunarCalendar convertFromGeneralDateYear: 2015
+                                                               month: 3
+                                                                 day: 4];
+                                                                 
+lunarDate Property 同 cpp
+```
+
+其他方法请参考头文件注释、和 iOS 单元测试
+
+### Android
+
+ToDO
+
 ## Todo
 - CocoaPod 支持
 - NDK 封装
