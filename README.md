@@ -1,5 +1,5 @@
 # LunarCalendar
-一个由 JS 万年历移植而来的，兼容 iOS / Android 的 cpp 农历模块。
+一个由 JS 万年历移植而来的，兼容 iOS / Android 的 cpp 农历模块，量程为 1900~2100 。
 
 **对于 iOS，还提供一个用 JSCore 直接调用 Calendar.js 的版本**
 
